@@ -198,7 +198,7 @@ main h3 {
   font-size: 40px;
 }
 .eng {
-  margin-left: 40px;
+  margin-left: 20px;
 }
 .eng a {
   font-size: 13px;
@@ -206,8 +206,8 @@ main h3 {
   color: #3d4af2;
 }
 .eng > p {
-  font-size: 17px;
-  width: 350px;
+  font-size: 18px;
+  width: 400px;
 }
 table {
   width: 1000px;
@@ -356,6 +356,10 @@ button {
   }
   .pro>p{
   font-size: 17px;
+  /* margin-left: -160px; */
+  }
+  .pro>img{
+    /* margin-left: -160px; */
   }
   .exp>p{
   font-size: 17px;
@@ -662,42 +666,45 @@ font-size: 15px;
 
   section > h1 {
     color: #050754;
-    width: 350px;
-    padding: 0px 0px 30px 30px;
-    font-size: 34px;
+    /* width: 300px; */
+    padding: 0px 0px 10px 0px;
+    margin-left: -29px;
+    font-size: 24px;
   }
-
+  .ja{
+    margin-left: 10px;
+  }
   .jacket {
-    width: 380px;
+    width: 320px;
     height: auto;
   }
   .girl {
-    width: 380px;
+    width: 320px;
     height: auto;
   }
   .people {
-    width: 380px;
+    width: 320px;
     height: auto;
   }
   .pro {
-    font-size: 17px;
-    width: 390px;
+    font-size: 15px;
+    width: 300px;
     margin-left: 20px;
   }
 
   .NID {
-    font-size: 17px;
-    width: 390px;
+    font-size: 15px;
+    width: 300px;
   }
 
   .cert {
-    font-size: 17px;
-    width: 390px;
+    font-size: 15px;
+    width: 300px;
   }
   section,
   h3 {
     color: hsl(230, 100%, 16%);
-    font-size: 22px;
+    font-size: 19px;
     margin-bottom: 40px;
     width: 400px;
   }
@@ -714,39 +721,54 @@ font-size: 15px;
   }
   .cardd {
     background-color: #88c4dd59;
-    height: 100vh;
-    width: 400px;
+    height: 85vh;
+    width: 340px;
     border-radius: 20px;
     margin-top: -400px;
     margin-bottom: 30px;
+    margin-left: 10px;
     box-shadow: 0px 70px 100px 0px #00871c33;
   }
-
+  .eng > p {
+    font-size: 16px;
+    width: 300px;
+  }
+  .soft>img{
+    width: 300px;
+  }
   .UIUX {
     background-color: #e0d5c0;
-    height: 100vh;
-    width: 400px;
+    height: 90vh;
+    width: 340px;
     border-radius: 20px;
     margin-top: 10px;
+    margin-left: 10px;
     box-shadow: 0px 70px 100px 0px #00871c33;
   }
   .DATA {
     background-color: #dfd5e8;
-    height: 120vh;
-    width: 400px;
+    height: 110vh;
+    width: 340px;
     border-radius: 20px;
-    /* margin-left: -50px; */
+    margin-left: 10px;
     box-shadow: 0px 10px 150px #fe8b774d;
   }
+
   .Digital {
     background-color: #eeefbd;
-    height: 100vh;
-    width: 400px;
+    height: 90vh;
+    width: 350px;
     border-radius: 20px;
     margin-top: 100px;
     margin-bottom: 450px;
     box-shadow: 0px 10px 150px #fe8b774d;
+    margin-left: 10px;
     /* margin-left: -50px; */
+  }
+  .softt>img {
+    text-align: center;
+    /* padding-top: 30px; */
+    width: 300px;
   }
   
 
@@ -771,8 +793,15 @@ font-size: 15px;
   .alumnii {
     display: none;
   }
+  .pro>p{
+    font-size: 17px;
+    margin-left: -160px;
+    }
+    .pro>img{
+      margin-left: -160px;
+    }
   iframe {
-    margin-left: -180px;
+    margin-left: -220px;
     height: auto;
     width: auto;
     margin-top: -50px;
@@ -782,7 +811,7 @@ font-size: 15px;
     height: auto;
   }
   #tour {
-    margin: 120px 0px 0px -300px;
+    margin: 120px 0px 0px -370px;
   }
   #tour > h1 {
     font-size: 20px;
