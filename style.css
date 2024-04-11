@@ -622,7 +622,7 @@ font-size: 15px;
   .img2 {
     padding: 10px 0px 0px 20px;
     padding-top: 10px;
-    width: 100px;
+    width: 70px;
   }
 
   nav {
@@ -671,19 +671,23 @@ font-size: 15px;
     margin-left: -29px;
     font-size: 24px;
   }
-  .ja{
-    margin-left: 10px;
-  }
+
   .jacket {
-    width: 320px;
+    width: 80% !important;
+    margin-left: auto;
+    margin: 0px 0px 0px 11px !important;
     height: auto;
   }
   .girl {
-    width: 320px;
+    width: 80% !important;
+    margin-left: auto;
+    margin: 0px 0px 0px 11px !important;
     height: auto;
   }
   .people {
-    width: 320px;
+    width: 80% !important;
+    margin-left: auto;
+    margin: 0px 0px 0px 11px !important;
     height: auto;
   }
   .pro {
@@ -695,11 +699,28 @@ font-size: 15px;
   .NID {
     font-size: 15px;
     width: 300px;
+    padding-left: 13px;
+  }
+  .nat h3 {
+    padding-left: 10px;
+  }
+  .nat a{
+    padding-left: 10px;
+  }
+  .ja a{
+    margin-left: 10px;
   }
 
   .cert {
     font-size: 15px;
     width: 300px;
+    margin-left: 10px;
+  }
+  .fine h3{
+    margin-left: 10px;
+  }
+  .fine a{
+    margin-left: 10px;
   }
   section,
   h3 {
@@ -722,7 +743,7 @@ font-size: 15px;
   .cardd {
     background-color: #88c4dd59;
     height: 85vh;
-    width: 340px;
+    width: 80%;
     border-radius: 20px;
     margin-top: -400px;
     margin-bottom: 30px;
@@ -736,28 +757,35 @@ font-size: 15px;
   .soft>img{
     width: 300px;
   }
+  .PDC{
+    font-size: 13px;
+  }
+  .NDC{
+    width: 300px;
+  }
   .UIUX {
     background-color: #e0d5c0;
     height: 90vh;
-    width: 340px;
+    width: 80%;
     border-radius: 20px;
-    margin-top: 10px;
+    margin-top: 30px;
     margin-left: 10px;
     box-shadow: 0px 70px 100px 0px #00871c33;
   }
   .DATA {
     background-color: #dfd5e8;
     height: 110vh;
-    width: 340px;
+    width: 80%;
     border-radius: 20px;
     margin-left: 10px;
+    /* margin-top: 4 0PX; */
     box-shadow: 0px 10px 150px #fe8b774d;
   }
 
   .Digital {
     background-color: #eeefbd;
     height: 90vh;
-    width: 350px;
+    width: 80%;
     border-radius: 20px;
     margin-top: 100px;
     margin-bottom: 450px;
@@ -822,7 +850,7 @@ font-size: 15px;
   }
   .mony{
     display: flex;
-    margin-left: 60px;
+    margin-left: 30px;
     /* margin-left: 50px; */
     margin-top: auto;
     flex-direction: column;
@@ -843,10 +871,14 @@ font-size: 15px;
     margin-left: 0px;
     margin-top: 0px;
   }
+  .ja h3{
+    margin-left: 10px;
+  }
   .pro{
-    margin-left: 0px;
+    margin-left: 10px;
     margin-bottom: 20px;
   }
+  
   .pre{
     margin-left: -160px;
     margin-bottom: 20px;
@@ -897,7 +929,7 @@ font-size: 15px;
 .cardo{
   display: flex;
   flex-direction: column;
-  margin-left: -70px;
+  margin-left: -110px;
 }
 .play{
   margin-top: 40px;
