@@ -657,37 +657,40 @@ font-size: 15px;
   .container {
     display: flex;
     flex-direction: column;
-    padding: 0px 0px 0px 0px;
-    margin-left: -30px;
+    padding: 0px;
+    margin: 0px auto;
+    /* padding: 0px 0px 0px 0px; */
   }
   section {
-    padding: 40px 0px 0px 50px;
+    /* padding: 40px 0px 0px 50px; */
+    padding: 0px;
+    margin: 0px auto;
   }
 
   section > h1 {
     color: #050754;
     /* width: 300px; */
     padding: 0px 0px 10px 0px;
-    margin-left: -29px;
+    /* margin-left: 10px; */
     font-size: 24px;
   }
 
   .jacket {
-    width: 80% !important;
-    margin-left: auto;
-    margin: 0px 0px 0px 11px !important;
+    width: 100% !important;
+    margin: 0px auto;
     height: auto;
+    /* margin-right: auto; */
   }
   .girl {
-    width: 80% !important;
-    margin-left: auto;
-    margin: 0px 0px 0px 11px !important;
+    width: 100% !important;
+    margin: 0px auto;
+    /* margin: 0px 0px 0px 11px !important; */
     height: auto;
   }
   .people {
-    width: 80% !important;
-    margin-left: auto;
-    margin: 0px 0px 0px 11px !important;
+    width: 100% !important;
+    margin: 0px auto;
+    padding: 0px;
     height: auto;
   }
   .pro {
@@ -737,17 +740,15 @@ font-size: 15px;
   .car {
     display: flex;
     flex-direction: column;
-    padding: 0px 0px 0px 0px;
-    margin-left: 10px;
+    padding: 0px;
   }
   .cardd {
     background-color: #88c4dd59;
-    height: 85vh;
-    width: 80%;
+    height: auto;
+    width: 90%;
     border-radius: 20px;
-    margin-top: -400px;
-    margin-bottom: 30px;
-    margin-left: 10px;
+    margin: 30PX auto;
+    padding-bottom: 50px;
     box-shadow: 0px 70px 100px 0px #00871c33;
   }
   .eng > p {
@@ -765,33 +766,33 @@ font-size: 15px;
   }
   .UIUX {
     background-color: #e0d5c0;
-    height: 90vh;
-    width: 80%;
+    height: auto;
+    width: 90%;
     border-radius: 20px;
     margin-top: 30px;
-    margin-left: 10px;
+    padding-bottom: 40px;
+    margin: 40px auto;
     box-shadow: 0px 70px 100px 0px #00871c33;
   }
   .DATA {
     background-color: #dfd5e8;
-    height: 110vh;
-    width: 80%;
+    height: auto;
+    padding-bottom: 50PX;
+    width: 90%;
     border-radius: 20px;
-    margin-left: 10px;
-    /* margin-top: 4 0PX; */
+    margin: 0PX auto;
     box-shadow: 0px 10px 150px #fe8b774d;
   }
 
   .Digital {
     background-color: #eeefbd;
-    height: 90vh;
-    width: 80%;
+    height: auto;
+    width: 90%;
     border-radius: 20px;
-    margin-top: 100px;
-    margin-bottom: 450px;
+       padding-bottom: 70px;
     box-shadow: 0px 10px 150px #fe8b774d;
-    margin-left: 10px;
-    /* margin-left: -50px; */
+    margin: 30px auto;
+    
   }
   .softt>img {
     text-align: center;
